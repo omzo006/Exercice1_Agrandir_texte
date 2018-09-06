@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script type="text/javascript">
+         function red_txt() {
+        var t1 = document.getElementById('texte');
+            t1.style.fontSize = "1.2em";
+            t1.style.color = "#000";
+         }
+         function agr_txt() {
+           var t1 = document.getElementById('texte');
+               t1.style.fontSize = "5.2em";
+               t1.style.color = "#0f0";
+         }
+
+    </script>
+  </head>
+  <body>
+    <div  id="texte" ondblclick="red_txt()" onclick="agr_txt()">
+       Bonjour le monde...!
+    </div>
+  </body>
+
+</html>
